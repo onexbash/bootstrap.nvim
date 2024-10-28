@@ -39,7 +39,7 @@ function M.show()
 end
 
 -- Create the :1bootstrap command
-vim.api.nvim_create_user_command("1bootstrap", function()
+vim.api.nvim_create_user_command("bootstrap", function()
 	M.show()
 end, {})
 
